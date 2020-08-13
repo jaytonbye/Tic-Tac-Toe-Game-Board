@@ -25,7 +25,6 @@ function cellClicked(){
 }
 
 function checkForWinner(){
-    //condition for winner player 1
     if ((cells[0].textContent === cells[1].textContent && cells[0].textContent ===  cells[2].textContent && cells[0].textContent === 'X')
     ||
     (cells[3].textContent === cells[4].textContent && cells[3].textContent ===  cells[5].textContent && cells[3].textContent === 'X')
@@ -84,7 +83,6 @@ function checkForWinner(){
 }
 
 function resetBoard(){
-    //location.reload()
     for (cell of cells){
         cell.textContent=""
     }
