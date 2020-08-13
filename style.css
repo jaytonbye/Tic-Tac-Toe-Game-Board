@@ -8,12 +8,14 @@
     width: 100px;
     float: left;
     cursor: pointer;
+    font-size: 3em;
 }
 
 .row {
     clear: both;
     margin: 0 auto;
     width: 302px;
+    line-height: 100px;
 }
 
 .top {
